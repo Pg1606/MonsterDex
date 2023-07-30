@@ -1,0 +1,9 @@
+.search-box {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, rgba(28, 122, 0, 0.353) , rgba(119, 50, 0, 0.54));
+  }

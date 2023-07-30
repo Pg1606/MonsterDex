@@ -1,0 +1,24 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    border: none;
+    border-radius: 100px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+    mix-blend-mode: lighten;
+  }
+
+  .monster-name, .monster-email {
+    background: radial-gradient(circle, rgb(4, 31, 163) 0%, rgb(255, 0, 55) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
